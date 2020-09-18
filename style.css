@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel {
+    width: 100vw;
+}
+
+.carousel-item {
+    display:none;
+}
+
+.carousel-item-visible{
+    display:block;
+    animation: fadeVisibility 1.5s;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+@keyframes fadeVisibility {
+    from {
+      opacity: .05;
+    }
+  
+    to {
+        opacity: 1;
+    }
+  }
