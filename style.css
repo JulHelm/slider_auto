@@ -5,7 +5,9 @@ body{
 }
 
 .carousel {
-    width: 100vw;
+    width: 100vw;    
+    height: 500px;
+    overflow: hidden;
 }
 
 .carousel-item {
@@ -14,7 +16,7 @@ body{
 
 .carousel-item-visible{
     display:block;
-    animation: fadeVisibility 1.5s;
+    animation: fadeVisibility 2s;
 }
 
 .carousel-item img {
