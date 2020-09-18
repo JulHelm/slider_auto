@@ -5,9 +5,8 @@ body{
 }
 
 .carousel {
-    width: 100vw;    
-    height: 500px;
-    overflow: hidden;
+    width: 100vw;
+    heigth: 500px;
 }
 
 .carousel-item {
